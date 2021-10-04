@@ -1,0 +1,52 @@
+ul{margin:0;padding:0;list-style-type:none;overflow:hidden;background-color:#d2691e}
+li{float:left;}
+li a{text-decoration:none;color:white;display:inline;padding:30px 16px;text-align:center;margin:0px 30px;}
+li a:hover{background-color:#000000;}
+.topnews{display:grid;grid-template:300px 300px/ 380px 380px 380px;grid-gap:10px;margin-right:20px;margin-left:20px; justify-content:space-evenly;}
+.tn{font-weight:bold;font-size:20px;}
+.box{background-color:beige;}
+.a{grid-row:1 / 4;}
+.b{margin:0px 30px;background-image:url("madagascar.jpg");}
+article{padding:20px 0px;color:white;font-weight:thine;font-size:25px; display: inline-block;
+        border-left: 3px solid 	#228b22;
+        margin: 5px 5px;
+        height: 3px;opacity:1.5;}
+.c{background-image:url("Ns.jpg");}
+.d{background-image:url("fifa.jpg");
+background-size:370px 250px;
+background-repeat:no-repeat;}
+.e{background-image:url("asuu.jpg");
+background-size:370px 250px;
+background-repeat:no-repeat;}
+.pp{text-align:center;line-height:1;}
+.pol{display:grid;grid-template:200px 200px/ 200px 200px 200px;justify-content:space-evenly;}
+.biz{display:grid;grid-template:200px 200px/ 200px 200px 200px;justify-content:space-evenly;}
+.Ent{display:grid;grid-template:200px 200px/ 200px 200px 200px;justify-content:space-evenly;}
+.st{display:grid;grid-template:200px 200px/ 200px 200px 200px;justify-content:space-evenly;}
+.sport{display:grid;grid-template:200px 200px/ 200px 200px 200px;justify-content:space-evenly;}
+.search{floatt:right;margin:0px;padding:0px;}
+div a{text-decoration:none;color:#000000;}
+.lk:hover{opacity:0.4;}
+a {text-decoration:none;color:black;
+	
+}
+/*center an image*/
+.weather{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%}
+footer{background-color:#d2691e;}
+h2{padding:10px 10px;text-weight:thin;text-align:center;}
+.powered{padding:25px 25px;margin-bottom:25px;padding-bottom:15px;}
+.con{text-align:center;color:white;padding-top:15px;padding-bottom:15px;margin-bottom:30px;}
+img{
+	width:100%;
+	height:auto%;
+}
+@media (max-width:480px) and (min-width:320px){ body {
+display:flex}
+}
+@media (max-width:480px){
+	header{display:flex;}
+}
+

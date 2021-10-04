@@ -1,0 +1,4 @@
+.tn{display:grid;border: 2px blue solid;width:1200px;height:1000px;grid-template: repeat(3, 3fr) / repeat(3, 3fr); grid-gap:20px;}
+article{background-color:black;}
+span{grid-row-start:1;grid-row-end:3;}
+.b{grid-row-start:1 / 3;}
